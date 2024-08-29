@@ -89,6 +89,7 @@ h6 {
 
 .logo h1 {
   font-size: 1.5rem;
+  color: #F5CF3A;
 }
 
 /* PHP Email Form Messages
@@ -2125,9 +2126,10 @@ color-mix(in srgb, var(--default-color), transparent 80%);
 --------------------------------------------------------------*/
 .header {
   border-bottom: 3px solid #ededed;
-  background-color: #ffffff;
+  background-color: #1F1E22;
   min-height: 68px;
   display: flex;
+  flex-direction: column;
 }
 
 .hidden {
@@ -2316,7 +2318,7 @@ display: block;
 
 .header {
   border-bottom: 3px solid #ededed;
-  background-color: #ffffff;
+  background-color: #1f1e22;
 }
 .header-center {
   text-align: center;
@@ -2355,19 +2357,19 @@ display: block;
   font-size: 13px;
   font-weight: 600;
   line-height: 20px;
-  color: #444444;
+  color: #fff;
   padding: 40px 0px 40px 0px;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
 }
 .header .header-row .header-right .main-menu li.menu-item > a:hover {
- color: #e9900a;
+ color: #F5CF3A;
 }
 
 
 .header .header-row .header-right .main-menu li.menu-item a.active {
-  color: #e9900a;
+  color: #F5CF3A;
 }
 
 .header .header-row .header-right .main-menu .sub-menu-wrapper {
@@ -2387,7 +2389,7 @@ display: block;
 
 .header .header-row .header-right .main-menu .dropdown ul.sub-menu {
   background-color: #ffffff;
-  border-top: 3px solid #e9900a;
+  border-top: 3px solid #F5CF3A;
   min-width: 200px;
   padding: 0px 0;
   box-shadow: 0 5px 8px rgb(0 0 0 / 15%);
@@ -2424,7 +2426,7 @@ display: block;
   display: none;
   padding: 20px 25px;
   background-color: #ffffff;
-  border-top: 3px solid #e9900a;
+  border-top: 3px solid #F5CF3A;
   width: 100%;
   box-shadow: 0 5px 8px rgb(0 0 0 / 15%);
   z-index: 100;
@@ -2471,7 +2473,7 @@ display: block;
 
 .header .mobile-toggler {
   color: #ffffff;
-  background-color: #0088cc;
+  /* background-color: #0088cc; */
   cursor: pointer;
   padding: 7px 13px;
   text-align: center;
@@ -2604,7 +2606,7 @@ font-size: 40px;
 }
 
 .my-list li.page-link.my-active {
-   background-image: linear-gradient(#ff4568, #ff4568);
+   background-image: linear-gradient(#60BC53, #60BC53);
    color: #fff;
    border-radius: 50%;
   display: inline;
