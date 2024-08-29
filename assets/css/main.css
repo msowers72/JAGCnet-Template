@@ -2686,3 +2686,18 @@ ul.announce6 {
 /*--------------------------------------------------------------
 # pagination Section End
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Announcemtns and Upcomming Events Section
+--------------------------------------------------------------*/
+
+.announce-flex  {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.announce-flex .col-6 h2 {
+  text-align: center;
+}
