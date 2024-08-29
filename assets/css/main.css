@@ -2701,3 +2701,14 @@ ul.announce6 {
 .announce-flex .col-6 h2 {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .announce-flex {
+    flex-direction: column;
+    
+    
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
